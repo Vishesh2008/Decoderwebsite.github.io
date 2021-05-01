@@ -1,0 +1,92 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(0,0,37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#home{
+    background-image: url(images/undraw_static_website_0107.svg);
+    display: table;
+    height: 570px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    -webkit-button-align: center;
+
+}
+
+
+
+.landing-text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #f5ba40;
+}
+
+.btn-outline-secondary{
+    color: #f5ba40;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 600%;
+    line-height: 1.1;
+}
+
+h3{
+    font-size: 250%;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.lead{
+    color: black;
+}
+
+.main-heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navigation-link{
+    border: 2px solid transparent;
+}
+.navigation-link:hover{
+   text-decoration: none;
+   border-bottom: 2px solid #f5ba40;
+   transition: 0.5s ease; 
+}
+.main-container{
+    height: 100vh;
+}
+
+.img-fluid{
+    border-radius: 100%;
+}
+.main-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_row h1{
+    font-size: 5.5rem;
+}
+
+.main_row img{
+    width: auto;
+    height: 100vh;
+}
+
+.about{
+    background: #313550;
+    border-radius: 1rem;
+}
+
+.card{
+    border-bottom: 6px solid #f5ba40;
+    height: 400px;
+    width: 900px;
+    color: black;
+    background-color: #f5ba40;
+}
